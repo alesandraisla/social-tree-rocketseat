@@ -14,6 +14,6 @@ CSS - O layout foi construído utilizando FlexBox. Modelo responsivo.
 
 ## Layout ##
 
-![Mobile]()
-![Desktop]()
+![Mobile](https://github.com/alesandraisla/social-tree-rocketseat/blob/master/assets/mobile.png)
+![Desktop](https://github.com/alesandraisla/social-tree-rocketseat/blob/master/assets/desktop.png)
 
