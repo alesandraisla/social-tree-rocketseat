@@ -12,8 +12,9 @@ CSS - O layout foi construído utilizando FlexBox. Modelo responsivo.
 
 [Social Tree](https://alesandraisla.github.io/social-tree-rocketseat/)
 
-## Layout ##
+## Layout - Mobile e Desktop ##
 
-![Mobile](https://github.com/alesandraisla/social-tree-rocketseat/blob/master/assets/mobile.png)
-![Desktop](https://github.com/alesandraisla/social-tree-rocketseat/blob/master/assets/desktop.png)
-
+<div align="center">
+    <img src="./assets/mobile.png" width="200px" align="center" > 
+    <img src="./assets/desktop.png" width="600px" align="center" height="400px">
+</div>
