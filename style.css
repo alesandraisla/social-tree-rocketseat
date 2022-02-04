@@ -1,0 +1,113 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+  * {
+    font-family: 'Poppins', sans-serif;
+    color: var(--purple);
+    /* margin: 0 auto; */
+    text-decoration: none;
+    /* margin: 0; */
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    background-color:var(--body-bg-color);
+}
+
+.perfil {
+    width: 200px;
+    border-radius: 102px;
+}
+
+.circle {
+    border: 1px solid var(--purple);
+    background-color:var(--body-bg-color);
+
+    border-radius: 110px;
+    width: 204px;
+    height: 204px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-right:1px;
+}
+
+.userName {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+
+.badge-item {
+    display: flex;
+    justify-content: center;
+    border:2px solid var(--purple);
+    border-radius: 2px;
+    padding: 4px 0;
+    min-width: 20rem;
+    margin-top: 20px;
+
+
+}
+
+.social {
+    margin-top: 40px;
+}
+
+.social a {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s;
+    display: inline-block;
+
+}
+
+.badge a:hover {
+    background-color: var(--purple);
+    color: var(--body-bg-color);
+}
+
+.social a:hover {
+    transform: translateY(-15px);
+}
+
+/* 100 width chegar 274  */
+
+
+@media(max-width:370px) {
+    .badge-item {
+        min-width: 18rem;
+    }
+    .circle {
+        width:189px;
+        height:188px;
+    }
+    .perfil {
+        width:185px;
+    }
+}
+
+@media (max-width:300px) {
+    badge-item {
+        padding-top: 6px;
+        padding-bottom:6px;
+        min-width: 12rem;
+    }
+    circle {
+        width:170px;
+        height:169;
+    }
+    perfil {
+        width:166px;
+    }
+}
