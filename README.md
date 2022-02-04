@@ -10,8 +10,10 @@ CSS - O layout foi construído utilizando FlexBox. Modelo responsivo.
 
 ## Link para visualização ##
 
-[Social Tree](.
+[Social Tree](https://alesandraisla.github.io/social-tree-rocketseat/)
 
 ## Layout ##
 
-![Layout Social Tree]()
+![Mobile]()
+![Desktop]()
+
