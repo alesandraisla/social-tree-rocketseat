@@ -15,6 +15,6 @@ CSS - O layout foi construído utilizando FlexBox. Modelo responsivo.
 ## Layout - Mobile e Desktop ##
 
 <div align="center">
+    <img src="./assets/desktop.png" width="800px" align="center" height="400px">
     <img src="./assets/mobile.png" width="200px" align="center" > 
-    <img src="./assets/desktop.png" width="600px" align="center" height="400px">
 </div>
